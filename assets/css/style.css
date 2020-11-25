@@ -13,21 +13,16 @@ body {
   padding-top: 55px;  
 }
 
-/*-------------------------------------------navbar---*/
-.navbar {
-    position: fixed;
-}
-
-.space{
+.gap{
     margin-top: 55px;
 }
 
 .row{
-    padding: 20px;
+    padding: 10px;
 }
 
 /*----------------------------------------Text-------------*/
-h2 h3 {
+.center-text {
     text-align: center;
 }
 /* Always set the map height explicitly to define the size of the div
@@ -41,7 +36,17 @@ html, body {
     margin: 0;
     
 }
-
+/*--------------------------content wrapper--------------------*/
+.text-wrapper {
+    padding: 10px 10px 10px 16px;
+    background: #fff;
+    border: 1px solid #d0d0ce;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 220px;
+    width: 100%;
+}
 /*-------------------------------------------images----------*/
 .icon-img {
   border-top-left-radius: 20px;
@@ -71,4 +76,31 @@ html, body {
   display: none;
   background-color: white;
   overflow: hidden;
+}
+
+
+/*---------------------------------------Footer-------------------*/
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(224, 97, 97);
+   color: white;
+   text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+
+/*-------------------------------contact form--------------------*/
+.center-form {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    max-width: 70%;
 }
