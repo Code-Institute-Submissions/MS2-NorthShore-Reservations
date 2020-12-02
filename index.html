@@ -37,22 +37,25 @@
 
     <!---Script to prevent Navbar hiding initial content when jumping to in-page anchor ---->
     <script>
-        var shiftWindow = function() { scrollBy(0, -50) };
-        window.addEventListener("hashchange", shiftWindow);
-        function load() { if (window.location.hash) shiftWindow(); }
+      var shiftWindow = function () {
+        scrollBy(0, -50);
+      };
+      window.addEventListener("hashchange", shiftWindow);
+      function load() {
+        if (window.location.hash) shiftWindow();
+      }
     </script>
 
     <title>NorthShore Reservations</title>
   </head>
 
   <body onload="load(); initMap()">
-
     <!-- Header using bootstrap Navbar -->
     <header>
       <nav
-        class="navbar navbar-expand-lg navbar-light bg-primary fixed-top ml-auto"
+        class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top ml-auto"
       >
-        <a class="navbar-brand" href="./index.html">Reservations</a>
+        <a class="navbar-brand" href="./index.html">Reservations of Northshore</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -79,30 +82,36 @@
     </header>
 
     <div class="container-fluid" id="intro">
-      
       <div class="row">
-      
         <div class="col-md-10 mx-auto">
-        <h2 class="center-text"">Explore Reservations in Northshore</h2>
+          <p style="color: brown">
+            Come explore Northshore's conserved properties by the Trustees of
+            Reservations and Greenbelt Essex County's Land Trust. Whether you
+            want to hike, kayak, run, paint or bird, you’ll find the perfect
+            spot at one of the reservations.
+          </p>
           <img
             class="img-fluid"
-            src="./assets/images/reservation.jpg"
+            src="./assets/images/reservations.jpg"
             alt="Reservation"
           />
         </div>
       </div>
     </div>
-    
-    <div id="map-section"><h4 class="center-text">Move the mouse over a marker to view the property info window</h4></div>
+
+    <div id="map-section">
+      <h4 class="center-text mt-2">
+        Move the mouse over or tap a marker to view the property info window
+      </h4>
+    </div>
     <div class="container-fluid space" id="map"></div>
 
     <!--section using bootstrape grid for info windows -->
     <div class="container-fluid" id="placeicon">
-    <br>
-    <h2 class="center-text"">Reservations in Northshore</h2>
-    <!--First row -->
-      <div class="row">
+      <h2 class="center-text mt-2">Reservations in Northshore</h2>
 
+      <!------------------First row ------------->
+      <div class="row">
         <div class="col-md-3 col-sm-6">
           <img
             class="img-fluid icon-img"
@@ -110,11 +119,18 @@
             alt="Agassiz Rock"
           />
           <div class="text-wrapper">
-          <h4 class="center-text">Agassiz Rock</h4>
-          <p >Ascend to where a massive granite monolith juts into the sky, then pass a swamp where another huge boulder has sat as a silent witness for millennia.</p>
+            <h4 class="center-text">Agassiz Rock</h4>
+            <p>
+              Ascend to where a massive granite monolith juts into the sky, then
+              pass a swamp where another huge boulder has sat as a silent
+              witness for millennia.
+            </p>
           </div>
-          <a href="https://thetrustees.org/place/agassiz-rock/" target="_blank"><button type="button" class="btn btn-primary btn-block mb-3">Link to this Reservation</button></a>
-          
+          <a href="https://thetrustees.org/place/agassiz-rock/" target="_blank"
+            ><button type="button" class="btn btn-primary btn-block mb-3">
+              Link to this Reservation
+            </button></a
+          >
         </div>
 
         <div class="col-md-3 col-sm-6">
@@ -124,13 +140,21 @@
             alt="Appleton Farm"
           />
           <div class="text-wrapper">
-          <h4 class="center-text">Appleton Farm</h4>
-          <p>Wander past crop fields and cow pastures at one of the country’s oldest continuously operating farms.</p>
+            <h4 class="center-text">Appleton Farm</h4>
+            <p>
+              Wander past crop fields and cow pastures at one of the country’s
+              oldest continuously operating farms.
+            </p>
           </div>
-          <a href="https://thetrustees.org/place/appleton-farms/" target="_blank"><button type="button" class="btn btn-primary btn-block mb-3">Link to this Reservation</button></a>
-          
+          <a
+            href="https://thetrustees.org/place/appleton-farms/"
+            target="_blank"
+            ><button type="button" class="btn btn-primary btn-block mb-3">
+              Link to this Reservation
+            </button></a
+          >
         </div>
-        
+
         <div class="col-md-3 col-sm-6">
           <img
             class="img-fluid icon-img"
@@ -138,10 +162,20 @@
             alt="Castle Hill"
           />
           <div class="text-wrapper">
-          <h4 class="center-text">Castle Hill Estate</h4>
-          <p>Experience the grandeur of a 2,100-acre seaside estate, its marvelously landscaped grounds, restored Grand Allée, gardens, and Casino complex.</p>
+            <h4 class="center-text">Castle Hill Estate</h4>
+            <p>
+              Experience the grandeur of a 2,100-acre seaside estate, its
+              marvelously landscaped grounds, restored Grand Allée, gardens, and
+              Casino complex.
+            </p>
           </div>
-          <a href="https://thetrustees.org/place/castle-hill-on-the-crane-estate/" target="_blank"><button type="button" class="btn btn-primary btn-block">Link to this Reservation</button></a>
+          <a
+            href="https://thetrustees.org/place/castle-hill-on-the-crane-estate/"
+            target="_blank"
+            ><button type="button" class="btn btn-primary btn-block">
+              Link to this Reservation
+            </button></a
+          >
         </div>
 
         <div class="col-md-3 col-sm-6">
@@ -151,16 +185,27 @@
             alt="Coolidge Point"
           />
           <div class="text-wrapper">
-          <h4 class="center-text">Coolidge Point</h4>
-          <p>A scenic pond and a small forest of pine and oak lead you to a spectacular seaside lawn offering memorable views of Massachusetts Bay and the North Shore.</p>          
+            <h4 class="center-text">Coolidge Point</h4>
+            <p>
+              A scenic pond and a small forest of pine and oak lead you to a
+              spectacular seaside lawn offering memorable views of Massachusetts
+              Bay and the North Shore.
+            </p>
           </div>
-          <a href="https://thetrustees.org/place/coolidge-reservation/" target="_blank"><button type="button" class="btn btn-primary btn-block">Link to this Reservation</button></a>
+          <a
+            href="https://thetrustees.org/place/coolidge-reservation/"
+            target="_blank"
+            ><button type="button" class="btn btn-primary btn-block">
+              Link to this Reservation
+            </button></a
+          >
         </div>
+
       </div>
 
-      <!--Second row -->  
-      <div class="row">
+      <!--Second row -->
 
+      <div class="row">
         <div class="col-md-3 col-sm-6">
           <img
             class="img-fluid icon-img"
@@ -168,10 +213,20 @@
             alt="Crane beach"
           />
           <div class="text-wrapper">
-          <h4 class="center-text">Crane Beach</h4>
-          <p>Soak up the seaside fun at one of the Northeast's most spectacular beaches, and follow trails and boardwalks through a spellbinding landscape of sand dunes and salt marsh.</p>
-        </div>
-        <a href="https://thetrustees.org/place/crane-beach-on-the-crane-estate/" target="_blank"><button type="button" class="btn btn-primary btn-block mb-3">Link to this Reservation</button></a>
+            <h4 class="center-text">Crane Beach</h4>
+            <p>
+              Soak up the seaside fun at one of the Northeast's most spectacular
+              beaches, and follow trails and boardwalks through a spellbinding
+              landscape of sand dunes and salt marsh.
+            </p>
+          </div>
+          <a
+            href="https://thetrustees.org/place/crane-beach-on-the-crane-estate/"
+            target="_blank"
+            ><button type="button" class="btn btn-primary btn-block mb-3">
+              Link to this Reservation
+            </button></a
+          >
         </div>
 
         <div class="col-md-3 col-sm-6">
@@ -181,11 +236,20 @@
             alt="Greenwood"
           />
           <div class="text-wrapper">
-          <h4 class="center-text">Greenwood Farm</h4>
-          <p>Wander through an open field and enjoy a memorable view of the historic Paine House, with the broad estuary of the Ipswich River extending beyond.</p>
+            <h4 class="center-text">Greenwood Farm</h4>
+            <p>
+              Wander through an open field and enjoy a memorable view of the
+              historic Paine House, with the broad estuary of the Ipswich River
+              extending beyond.
+            </p>
           </div>
-          <a href="https://thetrustees.org/place/greenwood-farm/" target="_blank"><button type="button" class="btn btn-primary btn-block mb-3">Link to this Reservation</button></a>
-        
+          <a
+            href="https://thetrustees.org/place/greenwood-farm/"
+            target="_blank"
+            ><button type="button" class="btn btn-primary btn-block mb-3">
+              Link to this Reservation
+            </button></a
+          >
         </div>
 
         <div class="col-md-3 col-sm-6">
@@ -195,10 +259,19 @@
             alt="Halibut Point"
           />
           <div class="text-wrapper">
-          <h4 class="center-text">Halibut Point</h4>
-          <p>Scramble across ledges scarred for eons by wind and wave, and examine tide pools teeming with marine life.</p>
+            <h4 class="center-text">Halibut Point</h4>
+            <p>
+              Scramble across ledges scarred for eons by wind and wave, and
+              examine tide pools teeming with marine life.
+            </p>
           </div>
-          <a href="https://thetrustees.org/place/halibut-point-reservation/" target="_blank"><button type="button" class="btn btn-primary btn-block">Link to this Reservation</button></a>         
+          <a
+            href="https://thetrustees.org/place/halibut-point-reservation/"
+            target="_blank"
+            ><button type="button" class="btn btn-primary btn-block">
+              Link to this Reservation
+            </button></a
+          >
         </div>
 
         <div class="col-md-3 col-sm-6">
@@ -208,18 +281,23 @@
             alt="Long Hill"
           />
           <div class="text-wrapper">
-          <h4 class="center-text">Long Hill</h4>
-          <p>The elegant plantings and cultivated grounds of this public garden bloom with vibrancy that's more than a century in the making.</p>
-          </div>          
-          <a href="https://thetrustees.org/place/long-hill/" target="_blank"><button type="button" class="btn btn-primary btn-block">Link to this Reservation</button></a>
-        </div>              
-
+            <h4 class="center-text">Long Hill</h4>
+            <p>
+              The elegant plantings and cultivated grounds of this public garden
+              bloom with vibrancy that's more than a century in the making.
+            </p>
+          </div>
+          <a href="https://thetrustees.org/place/long-hill/" target="_blank"
+            ><button type="button" class="btn btn-primary btn-block">
+              Link to this Reservation
+            </button></a
+          >
+        </div>
       </div>
 
-      <!--Third row -->       
-      
-      <div class="row">
+      <!--Third row -->
 
+      <div class="row">
         <div class="col-md-3 col-sm-6">
           <img
             class="img-fluid icon-img"
@@ -227,11 +305,17 @@
             alt="Old Town Hill"
           />
           <div class="text-wrapper">
-          <h4 class="center-text">Old Town Hill</h4>
-          <p>Climb to the top of this 168-ft coastal hill and enjoy panoramic views of the Great Marsh and New Hampshire's Isle of Shoals.</p>
+            <h4 class="center-text">Old Town Hill</h4>
+            <p>
+              Climb to the top of this 168-ft coastal hill and enjoy panoramic
+              views of the Great Marsh and New Hampshire's Isle of Shoals.
+            </p>
           </div>
-          <a href="https://thetrustees.org/place/old-town-hill/" target="_blank"><button type="button" class="btn btn-primary btn-block mb-3">Link to this Reservation</button></a>
-        
+          <a href="https://thetrustees.org/place/old-town-hill/" target="_blank"
+            ><button type="button" class="btn btn-primary btn-block mb-3">
+              Link to this Reservation
+            </button></a
+          >
         </div>
 
         <div class="col-md-3 col-sm-6">
@@ -241,10 +325,19 @@
             alt="Ravenswood"
           />
           <div class="text-wrapper">
-          <h4 class="center-text">Ravenswood Park</h4>
-          <p>Ten miles of crushed-stone carriage paths and trails meander through the park.</p>
+            <h4 class="center-text">Ravenswood Park</h4>
+            <p>
+              Ten miles of crushed-stone carriage paths and trails meander
+              through the park.
+            </p>
           </div>
-          <a href="https://thetrustees.org/place/ravenswood-park/" target="_blank"><button type="button" class="btn btn-primary btn-block mb-3">Link to this Reservation</button></a>        
+          <a
+            href="https://thetrustees.org/place/ravenswood-park/"
+            target="_blank"
+            ><button type="button" class="btn btn-primary btn-block mb-3">
+              Link to this Reservation
+            </button></a
+          >
         </div>
 
         <div class="col-md-3 col-sm-6">
@@ -254,11 +347,19 @@
             alt="Stavros"
           />
           <div class="text-wrapper">
-          <h4 class="center-text">Stavros</h4>
-          <p>Enjoy an easy ascent to a coastal hilltop that rewards you with panoramic views of Crane Beach and the Essex River estuary.</p>
+            <h4 class="center-text">Stavros</h4>
+            <p>
+              Enjoy an easy ascent to a coastal hilltop that rewards you with
+              panoramic views of Crane Beach and the Essex River estuary.
+            </p>
           </div>
-          <a href="https://thetrustees.org/place/stavros-reservation/" target="_blank"><button type="button" class="btn btn-primary btn-block">Link to this Reservation</button></a>
-        
+          <a
+            href="https://thetrustees.org/place/stavros-reservation/"
+            target="_blank"
+            ><button type="button" class="btn btn-primary btn-block">
+              Link to this Reservation
+            </button></a
+          >
         </div>
 
         <div class="col-md-3 col-sm-6">
@@ -268,17 +369,25 @@
             alt="Harvey"
           />
           <div class="text-wrapper">
-          <h4 class="center-text">Sally Weatherall</h4>
-          <p>Panoramic Marsh Views & Osprey Nest Observation. Spy on egrets and herons feeding on the vast salt marsh or observe migrating waterfowl.</p>
+            <h4 class="center-text">Sally Weatherall</h4>
+            <p>
+              Panoramic Marsh Views & Osprey Nest Observation. Spy on egrets and
+              herons feeding on the vast salt marsh or observe migrating
+              waterfowl.
+            </p>
           </div>
-          <a href="https://ecga.org/Property/Sally-Weatherall-Reservation-and-Viewing-Platform" target="_blank"><button type="button" class="btn btn-primary btn-block">Link to this Reservation</button></a>
-        
+          <a
+            href="https://ecga.org/Property/Sally-Weatherall-Reservation-and-Viewing-Platform"
+            target="_blank"
+            ><button type="button" class="btn btn-primary btn-block">
+              Link to this Reservation
+            </button></a
+          >
         </div>
-        
       </div>
 
-     <!--Fourth row -->      
-    <div class="row">
+      <!--Fourth row -->
+      <div class="row">
         <div class="col-md-3 col-sm-6">
           <img
             class="img-fluid icon-img"
@@ -286,13 +395,22 @@
             alt="Ravenswood"
           />
           <div class="text-wrapper">
-          <h4 class="center-text">Stony Cove</h4>
-          <p>Jutting out at a bend in the Little River where it joins the Annisquam River, this jewel provides a beautiful entry to Gloucester along busy Route 128. </p>
+            <h4 class="center-text">Stony Cove</h4>
+            <p>
+              Jutting out at a bend in the Little River where it joins the
+              Annisquam River, this jewel provides a beautiful entry to
+              Gloucester along busy Route 128.
+            </p>
           </div>
-          <a href="https://ecga.org/Property/Stoney-Cove-and-Presson-Point" target="_blank"><button type="button" class="btn btn-primary btn-block mb-3">Link to this Reservation</button></a>
-        
+          <a
+            href="https://ecga.org/Property/Stoney-Cove-and-Presson-Point"
+            target="_blank"
+            ><button type="button" class="btn btn-primary btn-block mb-3">
+              Link to this Reservation
+            </button></a
+          >
         </div>
-     
+
         <div class="col-md-3 col-sm-6">
           <img
             class="img-fluid icon-img"
@@ -300,11 +418,18 @@
             alt="Harvey"
           />
           <div class="text-wrapper">
-          <h4 class="center-text">Harvey</h4>
-          <p>Unparalleled views of Ipswich Bay, including Crane Beach and Plum Island, one of the best spots on Cape Ann to sit and watch the sunset.</p>
+            <h4 class="center-text">Harvey</h4>
+            <p>
+              Unparalleled views of Ipswich Bay, including Crane Beach and Plum
+              Island, one of the best spots on Cape Ann to sit and watch the
+              sunset.
+            </p>
           </div>
-          <a href="https://ecga.org/Post/Harvey-Reservation" target="_blank"><button type="button" class="btn btn-primary btn-block mb-3">Link to this Reservation</button></a>
-        
+          <a href="https://ecga.org/Post/Harvey-Reservation" target="_blank"
+            ><button type="button" class="btn btn-primary btn-block mb-3">
+              Link to this Reservation
+            </button></a
+          >
         </div>
 
         <div class="col-md-3 col-sm-6">
@@ -314,10 +439,20 @@
             alt="Cox"
           />
           <div class="text-wrapper">
-          <h4 class="center-text">Allyn Cox</h4>
-          <p>Stunning views of a breathtaking New England salt marsh, with an open field, bordered by hedgerow on the edge of a tidal estuary in the Great Marsh ecosystem.</p>
+            <h4 class="center-text">Allyn Cox</h4>
+            <p>
+              Stunning views of a breathtaking New England salt marsh, with an
+              open field, bordered by hedgerow on the edge of a tidal estuary in
+              the Great Marsh ecosystem.
+            </p>
           </div>
-          <a href="https://ecga.org/Property/Allyn-Cox-Reservation" target="_blank"><button type="button" class="btn btn-primary btn-block">Link to this Reservation</button></a>
+          <a
+            href="https://ecga.org/Property/Allyn-Cox-Reservation"
+            target="_blank"
+            ><button type="button" class="btn btn-primary btn-block">
+              Link to this Reservation
+            </button></a
+          >
         </div>
 
         <div class="col-md-3 col-sm-6">
@@ -327,103 +462,120 @@
             alt="Donovan"
           />
           <div class="text-wrapper">
-          <h4 class="center-text">Tompson</h4>
-          <p>Experience an exceptional example of Cape Ann’s unique rugged landscape with exposed granite bedrock in one of Greenbelt’s largest reservations.</p>
+            <h4 class="center-text">Tompson</h4>
+            <p>
+              Experience an exceptional example of Cape Ann’s unique rugged
+              landscape with exposed granite bedrock in one of Greenbelt’s
+              largest reservations.
+            </p>
           </div>
-          <a href="https://ecga.org/Property/Tompson-Street-Reservation" target="_blank"><button type="button" class="btn btn-primary btn-block">Link to this Reservation</button></a>
-        
+          <a
+            href="https://ecga.org/Property/Tompson-Street-Reservation"
+            target="_blank"
+            ><button type="button" class="btn btn-primary btn-block">
+              Link to this Reservation
+            </button></a
+          >
         </div>
-      </div>
-
-     
-
-
-
-
-      <p>
-        This is small info window section. for small devices hide the content
-        use accordian
-      </p>
-
-      <!--accordion code from w3school website -->
-
-      <h2>Accordion</h2>
-      <button class="accordion">Section 1</button>
-      <div class="panel">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
-        </p>
-      </div>
-
-      <button class="accordion">Section 2</button>
-      <div class="panel">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
-        </p>
-      </div>
-
-      <button class="accordion">Section 3</button>
-      <div class="panel">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
-        </p>
       </div>
     </div>
 
     <div class="container-fluid" id="join">
-      <h3 class="center-text">Become a Member</h3>
-      
-      <div class="row mx-auto">
-        <div class="col-md-4 mx-auto">
-          <img
-            class="img-fluid icon-img"
-            src="./assets/images/coolidge.JPG"
-            alt="Coolidge Point"
-          />
-          <a href="https://thetrustees.org/membership/" target="_blank" > <button type="button" class="btn btn-primary btn-block"> Join Trustees</button></a>
+      <div class="row">
+        <div class="col-md-10 mx-auto center-text">
+          <p>
+            Show your surpport and help to preserve the historic buildings and
+            conserve local wildlife habitat, critical farmland and beautiful
+            places to enjoy the outdoors in Massachusetts!
+          </p>
+          <h3 class="center-text">Become a Member</h3>
         </div>
-        <div class="col-md-4 mx-auto">
+      </div>
+
+      <div class="row">
+        <div class="col-md-5 mx-auto">
           <img
             class="img-fluid icon-img"
-            src="./assets/images/coolidge.JPG"
+            src="./assets/images/trustees.jpg"
             alt="Coolidge Point"
           />
-          <a href="https://ecga.org/Membership" target="_blank"><button type="button" class="btn btn-primary btn-block"> Join Greenbelt</button></a>
-          
+          <p class="text-wrapper">
+            The Trustees of Reservations is a non-profit land conservation and
+            historic preservation organization dedicated to preserving natural
+            and historical places in the Commonwealth of Massachusetts. It is
+            the oldest land conservation nonprofit organization of its kind in
+            the world and has 140,000 dues-paying members as of 2018. -Wikipedia
+          </p>
+          <a href="https://thetrustees.org/membership/" target="_blank">
+            <button type="button" class="btn btn-primary btn-block">
+              Join the Trustees
+            </button></a
+          >
+        </div>
+        <div class="col-md-5 mx-auto">
+          <img
+            class="img-fluid icon-img"
+            src="./assets/images/greenbelt.jpg"
+            alt="Coolidge Point"
+          />
+          <p class="text-wrapper">
+            Greenbelt is a member-supported nonprofit organization working to
+            conserve local farmland, wildlife habitat and scenic landscape. A
+            primary focus of our work is the creation of a network of greenbelts
+            consisting of natural corridors and visually intact landscapes.
+          </p>
+          <a href="https://ecga.org/Membership" target="_blank"
+            ><button type="button" class="btn btn-primary btn-block">
+              Join the Greenbelt
+            </button></a
+          >
         </div>
       </div>
     </div>
 
     <div id="form">
-    <h3 class="center-text">Contact Me</h3>    
-    
+      <br />
+      <h3 class="center-text">Question or feedback? Please contact me....</h3>
+
       <div class="center-form col-md-6">
         <form onsubmit="return sendMail(this);" id="myForm">
-            <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-            <input type="text" name="email" class="form-control" id="email" placeholder="Email" required/>
-            <textarea rows="5" name="message" class="form-control" id="message" placeholder="Your feedback" required></textarea>
-            <button type="submit" class="btn btn-primary btn-block">Submit</button>
-            
-
+          <input
+            type="text"
+            name="name"
+            class="form-control"
+            id="fullname"
+            placeholder="Name"
+            required
+          />
+          <input
+            type="text"
+            name="email"
+            class="form-control"
+            id="email"
+            placeholder="Email"
+            required
+          />
+          <textarea
+            rows="5"
+            name="message"
+            class="form-control"
+            id="message"
+            placeholder="Your feedback"
+            required
+          ></textarea>
+          <button type="submit" class="btn btn-primary btn-block">
+            Submit
+          </button>
         </form>
-        <br><br>
-      
-      </div>  
-      
-    
+        <br /><br />
+      </div>
     </div>
 
     <footer>
-      <p>This is footer part</p>
+      <p class="mt-2">
+        (c)2020 Suping Lou All Rights Reserved | This website was designed and
+        built by Suping Lou
+      </p>
     </footer>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

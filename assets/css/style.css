@@ -21,9 +21,18 @@ body {
     padding: 10px;
 }
 
+.col-md-3 .col-sm-6 {
+    margin: mt-2;
+}
+
 /*----------------------------------------Text-------------*/
+.color-wht {
+    color: #fff;
+}
+
 .center-text {
     text-align: center;
+    color: brown;
 }
 /* Always set the map height explicitly to define the size of the div
     * element that contains the map. */
@@ -47,6 +56,7 @@ html, body {
     min-height: 220px;
     width: 100%;
 }
+
 /*-------------------------------------------images----------*/
 .icon-img {
   border-top-left-radius: 20px;
