@@ -7,17 +7,17 @@ My website can be accessed [here](https://suping106.github.io/MS2-NorthShore-Res
 ## UX
 
 ### As a user
-- I can see the markers of these Reservations on Google Map.
-- I can click on the marker and see a info window.
-- I can access the info page for each Reservation.
+- I can clearly see the locations of these Reservations on Google Map.
+- I can move the mouse over the marker and view the info window (desktop) or tap on the marker on a smart phone or tablet to view the info window.
+- I can access the web pages for each Reservation.
 - I can contact website owner through email.
 - I can sign up to be a member.
 - I can navigate through different sections in the page.
 
 ### As a website owner
-- I want people to know and visit these beautiful places.
+- I want to give users an easy browse experience through people to know and visit these beautiful places.
 - I want to share the photos I took over the years.
-- I hope people would like to become a member and support these two land reserve organizations.
+- I hope people would like to support these two land reserve organizations and become a member.
 
 ### Responsive design
 User can browse this website on different devices.
