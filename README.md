@@ -32,17 +32,19 @@ I used Figma to creat the wireframes for the original design of the project. Dur
 
 <img src="./assets/images/wireframe-ms2.png" alt="Wireframe-MS2"/>
 
-Link to my original wireframes is [here](https://www.figma.com/file/2a5UR6GjIVR26Z2MoWQAEx/LongHill?node-id=0%3A1)
+Link to my original wireframes is [here](https://www.figma.com/file/YRGCBPXoM3FqXapNlm10p9/Milestone2?node-id=0%3A1)
 
 ## Features
 
 ### Existing Features
 
-- Navbar – On each page there is a Navbar on the top which allow the user to navigate between different pages.
-- Footer – There is a Footer area on each page with few social media icon links. Unfortunately there are no social media site for Long Hill at this point. All icon link to the Trustees website. I put them there just to show my understanding of the subject.
-- Home page – is the landing page with a picture of Long Hill and three buttons that will take the user to Discover page, location map and signup page.
-- Discover page – has a little history of the estate and photos with text wrap around images. Original design was to have a paragraph of the history and four photo links for the four seasons. Since I do not have the knowledge to handle large amount of photos using database I put a photo slides at the bottom of the page.
-- Join us page – is the place to signup to become a member. Each field required to fill up before submission.
+- One page website - There is only one page for this website. 
+- Navbar –  Navbar on the top which allows the user to navigate between the different setions.
+- Home setion - A collage picture with photos of the reservations on Northshore.
+- Map setion – shows a map with reservations in Northshore marked with markers. When the mouse moves over (on a desktop) or a finger taps a marker a info window pops up shown the picture and the name of that reservation.
+- Place section – a collection of cards with photos and little intros and links for each reservation.
+- Join us section – has two areas, one for The trustees of Reservations and the other for Greenbelt of Essex County's Land Trust. User can click either link that would bring up a signup website for membership or donations.
+- Contact me section - User can contact website owner through the contact form. Each field required to fill up before submission.
 - Responsive design
 
 ### Future Features
@@ -59,7 +61,8 @@ Link to my original wireframes is [here](https://www.figma.com/file/2a5UR6GjIVR2
 - [Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools) - used throughout project development for checking the responsiveness and debugging.
 - [Figma](https://www.figma.com/) for creating project wireframes.
 - [Fontawesome](https://fontawesome.com/) - used for providing social media icons.
-- [Javascript](https://www.javascript.com/)
+- [Javascript](https://www.javascript.com/) - used for scripts of Google map and emails.
+- 
 
 ## Testing
 

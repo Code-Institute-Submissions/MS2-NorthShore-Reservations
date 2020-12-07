@@ -18,6 +18,7 @@
             return false;  // To block from loading a new page                  
         }  
 
+    // reset the contact form after message was sent    
     function resetForm(){
         document.getElementById("form").reset();
     }
