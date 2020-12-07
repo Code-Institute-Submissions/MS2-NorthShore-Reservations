@@ -59,10 +59,12 @@ Link to my original wireframes is [here](https://www.figma.com/file/YRGCBPXoM3Fq
 - [Gidhub](https://github.com/) - used for project repository and version control
 - [Bootstrap 4](<https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)>) - used it's library templetes for navbars, buttoms and form.
 - [Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools) - used throughout project development for checking the responsiveness and debugging.
+- [Reponsive Design Checker](https://responsivedesignchecker.com/) 
 - [Figma](https://www.figma.com/) for creating project wireframes.
 - [Fontawesome](https://fontawesome.com/) - used for providing social media icons.
 - [Javascript](https://www.javascript.com/) - used for scripts of Google map and emails.
-- 
+- [Photo resize](https://www.photoresizer.com/) 
+- [Photo collage](https://www.photocollage.com/) 
 
 ## Testing
 
