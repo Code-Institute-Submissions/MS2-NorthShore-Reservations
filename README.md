@@ -65,6 +65,8 @@ Link to my original wireframes is [here](https://www.figma.com/file/YRGCBPXoM3Fq
 - [Javascript](https://www.javascript.com/) - used for scripts of Google map and emails.
 - [Photo resize](https://www.photoresizer.com/) 
 - [Photo collage](https://www.photocollage.com/) 
+- [Photo resize](https://www.img2go.com/convert-image-to-image)
+- [Photo enlarger](https://www.photoenlarger.com/)
 
 ## Testing
 

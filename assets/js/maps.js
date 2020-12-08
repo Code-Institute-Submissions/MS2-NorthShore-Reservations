@@ -130,9 +130,9 @@ const properties = [
 // When the user clicks the marker, an info window opens.
 
 function initMap() {
-    var centerLatLng = { lat: 42.694674, lng: -70.821945 };
+    var centerLatLng = { lat: 42.694674, lng: -70.73868 };
 
-    if (screen.width < 600) {
+    if(screen.width<600){
         var map = new google.maps.Map(document.getElementById("map"), {
             zoom: 10,
             center: centerLatLng,
