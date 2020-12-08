@@ -7,17 +7,20 @@ My website can be accessed [here](https://suping106.github.io/MS2-NorthShore-Res
 ## UX
 
 ### As a user
-- I can clearly see the locations of these Reservations on Google Map.
-- I can move the mouse over the marker and view the info window (desktop) or tap on the marker on a smart phone or tablet to view the info window.
-- I can access the web pages for each Reservation.
-- I can contact website owner through email.
-- I can sign up to be a member.
+- I can have a brief glance of the reservations in Northshore when the website was opened.
 - I can navigate through different sections in the page.
+- I get to know these wonderful reservations in Northshore.
+- I can clearly see the locations of these places with markers on the Google Map.
+- I can click or tap a maker on the map to see the name and the photo of the reservation.
+- I can have info cards with photo and infromation about the place as well as the link to the reservation.
+- I can access the web page of each Reservation for more information.
+- I can contact website owner through email for questions or comments.
+- I can sign up to be a member.
 
 ### As a website owner
-- I want to give users an easy browse experience through people to know and visit these beautiful places.
-- I want to share the photos I took over the years.
-- I hope people would like to support these two land reserve organizations and become a member.
+- I want the users to come and enjoy these beautiful places.
+- I want to introduce users to the great work that Trustees and Greenbelt have done in preserving local lands and histroy.
+- I hope people would like to become a member and support the Trustees and Greenbelt.
 
 ### Responsive design
 User can browse this website on different devices.
@@ -28,7 +31,7 @@ User can browse this website on different devices.
 
 ## Wireframes
 
-I used Figma to creat the wireframes for the original design of the project. During the development phase some modifications and improvements were made to the project when I moved along. 
+Figma was used to creat the wireframes for the original design of the project. During the development phase some modifications and improvements were made to the project. 
 
 <img src="./assets/images/wireframe-ms2.png" alt="Wireframe-MS2"/>
 
@@ -42,14 +45,14 @@ Link to my original wireframes is [here](https://www.figma.com/file/YRGCBPXoM3Fq
 - Navbar –  Navbar on the top which allows the user to navigate between the different setions.
 - Home setion - A collage picture with photos of the reservations on Northshore.
 - Map setion – shows a map with reservations in Northshore marked with markers. When the mouse moves over (on a desktop) or a finger taps a marker a info window pops up shown the picture and the name of that reservation.
-- Place section – a collection of cards with photos and little intros and links for each reservation.
+- Cards section – a collection of cards with photos and little intros of each reservation. Links under each card will bring user to the Trustees' or Greenbelt's website of that reservation.
 - Join us section – has two areas, one for The trustees of Reservations and the other for Greenbelt of Essex County's Land Trust. User can click either link that would bring up a signup website for membership or donations.
 - Contact me section - User can contact website owner through the contact form. Each field required to fill up before submission.
 - Responsive design
 
 ### Future Features
 
-- Photo gallery
+- Map on left side and when the mouse moved over to a marker the information about this place will show up on the right.
 
 ## Technologies Used
 
@@ -57,12 +60,13 @@ Link to my original wireframes is [here](https://www.figma.com/file/YRGCBPXoM3Fq
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - used for custome styling the elements.
 - [GidPod](https://www.gitpod.io/) - used online IDE for project development, code writing and editing
 - [Gidhub](https://github.com/) - used for project repository and version control
-- [Bootstrap 4](<https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)>) - used it's library templetes for navbars, buttoms and form.
+- [Bootstrap 4](<https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)>) - used it's library templates for navbars, buttoms and form.
 - [Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools) - used throughout project development for checking the responsiveness and debugging.
 - [Reponsive Design Checker](https://responsivedesignchecker.com/) 
 - [Figma](https://www.figma.com/) for creating project wireframes.
 - [Fontawesome](https://fontawesome.com/) - used for providing social media icons.
-- [Javascript](https://www.javascript.com/) - used for scripts of Google map and emails.
+- [Javascript](https://www.javascript.com/) - used for scripts of Google map and contact form.
+- [EmailJS](https://www.emailjs.com/) - used for emails.
 - [Photo resize](https://www.photoresizer.com/) 
 - [Photo collage](https://www.photocollage.com/) 
 - [Photo resize](https://www.img2go.com/convert-image-to-image)
@@ -88,41 +92,43 @@ Compatibility of the site was tested on Google Chrome, Microsoft Edge and Firefo
 
 ### Testing User Stories
 #### As a user
-- I can read about the history of this property.
-    * by navigating to **Discover** page through **Discover** link on the navbar or the sandwich menu
-    * or by clicking **Discover** button on home page
-
-- I can see the photos in different seasons.
-    * by viewing photo slides at the bottom of **Discover** page
-
-- I can find directions to the estate. 
-    * by clicking **Map** button on the **Home** page to access property location on **Google Maps**
-    * or getting direction from **Discover** page
-- I can contact Trustess through email or phone.
-    * by using the email address and phone number listed on each page right above the Footer
-- I can sign up to be a member.
-    * by navigating to **Join Us** page through the link on navbar or sandwich menu and filling up the signup form
-    * or by clicking **Join Us** button on **Home** page and filling up the signup form
+- I can have a brief glance of the reservations in Northshore when the website was opened.
+    * through the collage picture.
+ <img src="./assets/images/collage.png" alt="collage"/> 
+- I can navigate through different sections in the page.
+    * by click or tap the section name on the navbar 
+<img src="./assets/images/navbar.png" alt="navbar"/>  
+- I get to know these wonderful reservations in Northshore.
+    * by browsing through this website and the through the links to the Trustees and Greenbelt's websites.
+- I can clearly see the locations of these places with markers on the Google Map.
+    * by scroll down the page or click **Map** on the navbar.
+<img src="./assets/images/map.png" alt="map"/>
+- I can click/move over mouse or tap a maker to see the name and the photo of the reservation.
+<img src="./assets/images/map-w-info.png" alt="map-w-info"/>    
+- I can view info cards with photo and infromation about the place.
+    * by scroll down the page or click **Places** on the navbar.
+<img src="./assets/images/cards.png" alt="cards"/>
+- I can access the web page of each Reservation for more information.
+    * by clicking the **Link to this reservation** button. 
+- I can sign up to be a member of either the Trustees or the Greenbelt.
+    * by clicking the **Join the Trustees** or **Join the Greenbelt** button.
+<img src="./assets/images/JoinUs.png" alt="JoinUs"/>
+    * A sign up website of Trustees or Greenbelt will popup.
+<img src="./assets/images/joinTrustees.png" alt="joinTrustees"/>
+<img src="./assets/images/joinGreenbelt.png" alt="joinGreenbelt"/> 
+- I can contact website owner through email for questions or comments.
     
-- I can navigate through pages.
-    * by clicking the links on navbar of each page or sandwich menu
-- I can browse Trustees social media sites.
-    * by clicking the icons at the Footer of each page
-
 #### As a website owner
-- I want people to know and visit this beautiful place.
-    * by reading the history on **Discover** page.
-    * by viewing the photo slides on **Discover** page
-    * by browsing Trustess social media website through the icons on the Footer
-
-- I want to share the photos I took over the years.
-    * by the photo slides on **Discover** page
-- I hope people would like to become a member and support the trustees.
-    * by signing up on **Join Us" page
+- I want the users to come and enjoy these beautiful places.
+ * by browsing through the website
+- I want to introduce users to the great work that Trustees and Greenbelt have done in preserving local lands and histroy.
+ * by visiting the websites of these two non-profit organizations.
+- I hope people would like to become a member and support the Trustees and Greenbelt.
+    * by signing up on **Join Us" section
 
 ### Bugs
-* Active page was not highlighted. Bug fixed by adding "active" class and now the active page is highlighted. 
-* Images were taken over the whole screen. Bug fixed by adding "class="img-fluid" to the image tags and now images are responsive. 
+* Collage image was too small. On large devices it would leave some blank space on the right. Using online photo enlarger website to enlarger the photo. 
+
 
 ## Deployment
 The website was deployed to GitHub pages. Link to the site is [here](https://github.com/suping106/MS2-NorthShore-Reservations).
