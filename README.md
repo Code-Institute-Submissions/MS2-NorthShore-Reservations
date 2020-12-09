@@ -25,9 +25,11 @@ My website can be accessed [here](https://suping106.github.io/MS2-NorthShore-Res
 ### Responsive design
 User can browse this website on different devices.
 
-<img src="./assets/images/responsive-img.png" alt="responsive-img"/>
+<img src="./assets/images/responsive1.png" alt="responsive1"/>
 
-<img src="./assets/images/responsive-img2.png" alt="responsive-img2"/>
+<img src="./assets/images/responsive2.png" alt="responsive2"/>
+
+<img src="./assets/images/responsive3.png" alt="responsive2"/>
 
 ## Wireframes
 
@@ -81,7 +83,7 @@ Errors of stray start tag were found. Errors were corrected by moving script lin
 CSS stylesheet were validated on [W3C Validator](https://validator.w3.org/nu/#textarea). No error found.
 
 ### Responsiveness
-Responsiveness of the site was tested using [Chrome devtools](https://developers.google.com/web/tools/chrome-devtools) and [Responsive Design Checker](https://responsivedesignchecker.com/#home)
+Responsiveness of the site was tested using [Chrome devtools](https://developers.google.com/web/tools/chrome-devtools), [Responsive Design Checker](https://responsivedesignchecker.com/#home) and [Responsive design](http://ami.responsivedesign.is/#)
 
 <img src="./assets/images/responsive-test.png" alt="responsive-test"/>
 
