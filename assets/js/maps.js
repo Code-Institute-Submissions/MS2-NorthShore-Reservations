@@ -73,16 +73,13 @@ const properties = [
         "stavros-reservation/",
         10,
     ],
-    //['The Stevens-Coolidge Place', 42.681484, -71.117535, 'stevens-sm.jpg', 'the-stevens-coolidge-place/', 11],
-    //['Charles W. Ward Reservation', 42.639711, -71.113056, 'ward-sm.jpg', 'charles-w-ward-reservation/', 12],
-    //['Weir Hill', 42.697330, -71.110951, 'weirhill-sm.jpg', 'weir-hill/', 13],
     [
         "Agassiz Rock",
         42.598149,
         -70.766914,
         "agassiz-sm.jpg",
         "agassiz-rock/",
-        14,
+        11,
     ],
     [
         "Sally Weatherall Reservation",
@@ -90,7 +87,7 @@ const properties = [
         -70.804188,
         "sally-sm.jpg",
         "Sally-Weatherall-Reservation-and-Viewing-Platform",
-        15,
+        12,
     ],
     [
         "Allyn Cox Reservation",
@@ -98,16 +95,15 @@ const properties = [
         -70.764614,
         "cox-sm.jpg",
         "Allyn-Cox-Reservation",
-        16,
+        13,
     ],
-    //['Donovan Reservation', 42.641327, -70.821890, 'donovan-sm.jpg', 'John-J-Donovan-Reservation-Sagamore-Hill-Conservation-Area', 17],
     [
         "Harvey Reservation",
         42.679187,
         -70.660575,
         "harvey-sm.jpg",
         "Harvey-Reservation",
-        18,
+        14,
     ],
     [
         "Tompson Street Reservation",
@@ -115,7 +111,7 @@ const properties = [
         -70.724,
         "tompson-sm.jpg",
         "Tompson-Street-Reservation",
-        19,
+        15,
     ],
     [
         "Stoney Cove Presson Point",
@@ -123,7 +119,7 @@ const properties = [
         -70.704964,
         "stonycove-sm.jpg",
         "Stoney-Cove-and-Presson-Point",
-        20,
+        16,
     ],
 ];
 

@@ -94,29 +94,41 @@ Compatibility of the site was tested on Google Chrome, Microsoft Edge and Firefo
 #### As a user
 - I can have a brief glance of the reservations in Northshore when the website was opened.
     * through the collage picture.
- <img src="./assets/images/collage.png" alt="collage"/> 
+     <img src="./assets/images/collage.png" alt="collage"/> 
+
 - I can navigate through different sections in the page.
     * by click or tap the section name on the navbar 
-<img src="./assets/images/navbar.png" alt="navbar"/>  
+    <img src="./assets/images/navbar.png" alt="navbar"/>  
+
 - I get to know these wonderful reservations in Northshore.
     * by browsing through this website and the through the links to the Trustees and Greenbelt's websites.
+
 - I can clearly see the locations of these places with markers on the Google Map.
     * by scroll down the page or click **Map** on the navbar.
-<img src="./assets/images/map.png" alt="map"/>
+    <img src="./assets/images/map.png" alt="map"/>
+
 - I can click/move over mouse or tap a maker to see the name and the photo of the reservation.
-<img src="./assets/images/map-w-info.png" alt="map-w-info"/>    
+
+<img src="./assets/images/map-w-info.png" alt="map-w-info"/>
+
 - I can view info cards with photo and infromation about the place.
     * by scroll down the page or click **Places** on the navbar.
-<img src="./assets/images/cards.png" alt="cards"/>
+    <img src="./assets/images/cards.png" alt="cards"/>
+
 - I can access the web page of each Reservation for more information.
     * by clicking the **Link to this reservation** button. 
+
 - I can sign up to be a member of either the Trustees or the Greenbelt.
     * by clicking the **Join the Trustees** or **Join the Greenbelt** button.
-<img src="./assets/images/JoinUs.png" alt="JoinUs"/>
+    <img src="./assets/images/JoinUs.png" alt="JoinUs"/>
+
     * A sign up website of Trustees or Greenbelt will popup.
-<img src="./assets/images/joinTrustees.png" alt="joinTrustees"/>
-<img src="./assets/images/joinGreenbelt.png" alt="joinGreenbelt"/> 
-- I can contact website owner through email for questions or comments.
+    <img src="./assets/images/joinTrustees.png" alt="joinTrustees"/>
+    <img src="./assets/images/joinGreenbelt.png" alt="joinGreenbelt"/> 
+
+- I can contact website owner for questions or comments.
+    * by filling out the contact form
+    <img src="./assets/images/contactForm.png" alt="contactForm"/>
     
 #### As a website owner
 - I want the users to come and enjoy these beautiful places.
@@ -127,8 +139,8 @@ Compatibility of the site was tested on Google Chrome, Microsoft Edge and Firefo
     * by signing up on **Join Us" section
 
 ### Bugs
-* Collage image was too small. On large devices it would leave some blank space on the right. Using online photo enlarger website to enlarger the photo. 
-
+* Input patterns were not working. Bug fixed with added space.
+* Collage image was too small. On large devices it would leave some blank space on the right. Used online photo enlarger website to enlarger the photo. 
 
 ## Deployment
 The website was deployed to GitHub pages. Link to the site is [here](https://github.com/suping106/MS2-NorthShore-Reservations).
@@ -164,7 +176,7 @@ Clone the repository
 
 ### Media
 
-- Most of the photos are owned by me and few of them were downloaded online.
+- Most of the photos are owned by me and few of them were downloaded from the Trustees and Greenbelt websites.
 
 ### Acknowledgements
 

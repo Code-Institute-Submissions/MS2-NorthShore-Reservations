@@ -543,12 +543,12 @@
             class="form-control"
             id="fullname"
             placeholder="Name"
-            
-            title="Please type in a valid name!"
+            pattern="[a-zA-Z][a-zA-Z0-9-_. ]{1,20}"
+            title="Please type in a valid name! Only letters (either case), numbers, space, hyphens, underscores, and periods. (Not the slash character, that is being used to escape the period.) The username must start with a letter and must be between 1 and 20 characters long (inclusive)."
             required
           />
           <input
-            type="text"
+            type="email"
             name="email"
             class="form-control"
             id="email"
@@ -560,8 +560,8 @@
             class="form-control"
             id="message"
             placeholder="Your message..."
-            pattern="[A-Za-z0-9]{3}"
-            title="Please type in your message here!"
+            minlength="3"
+            title="Please type in your message here! "
             required
           ></textarea>
           <button class="btn btn-primary btn-block" onclick="resetForm()">
