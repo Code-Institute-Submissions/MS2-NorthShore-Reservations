@@ -78,11 +78,18 @@ Link to my original wireframes is [here](https://www.figma.com/file/YRGCBPXoM3Fq
 
 ### Code Validation
 HTML code for all pages and CSS stylesheet were validated on [W3C Validator](https://validator.w3.org/nu/#textarea). Errors were corrected.
+Mid-project code validation:
 Errors of stray start tag were found. Errors were corrected by moving script links inside the body.
-<img src="./assets/images/NoErrorHtml.png" alt="Wireframe-MS2"/>
+Final-project code validation:
+Errors of the element of "Button" must not appear as descendent of the "a" element were found and corrected.
+Warnings were taking care of.
+<img src="./assets/images/htmlerrors.png" alt="htmlerrors"/>
+<img src="./assets/images/NoErrorHtml.png" alt="NoErrorHtml"/>
 
-CSS stylesheet were validated on [W3C Validator](https://validator.w3.org/nu/#textarea). No error found.
-<img src="./assets/images/NoErrorCSS.png" alt="Wireframe-MS2"/>
+CSS stylesheet were validated on [W3C Validator](https://validator.w3.org/nu/#textarea). 
+Error of mt-2 is not a margin value was found and corrected.
+<img src="./assets/images/CSSerror.png" alt="CSSerror"/>
+<img src="./assets/images/NoErrorCSS.png" alt="NoErrorCSS"/>
 
 ### Responsiveness
 Responsiveness of the site was tested using [Chrome devtools](https://developers.google.com/web/tools/chrome-devtools), [Responsive Design Checker](https://responsivedesignchecker.com/#home) and [Responsive design](http://ami.responsivedesign.is/#)
