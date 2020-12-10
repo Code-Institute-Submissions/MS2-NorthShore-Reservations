@@ -87,7 +87,7 @@ CSS stylesheet were validated on [W3C Validator](https://validator.w3.org/nu/#te
 ### Responsiveness
 Responsiveness of the site was tested using [Chrome devtools](https://developers.google.com/web/tools/chrome-devtools), [Responsive Design Checker](https://responsivedesignchecker.com/#home) and [Responsive design](http://ami.responsivedesign.is/#)
 
-<img src="./assets/images/responsive-test.png" alt="responsive-test"/>
+<img src="./assets/images/responsiveness-test.png" alt="responsiveness-test"/>
 
 ### Browser Compatibility
 Compatibility of the site was tested on Google Chrome, Microsoft Edge and Firefox.
@@ -163,7 +163,7 @@ Clone the repository
 * Click the green "Code" button right next to "Gitpod" button
 * Copy the link shown on the popup window under "Clone with HTTPS" 
 * In Gitpod teminal window make a new directory on your computer
-* At the command promt type git clone https://github.com/suping106/milestone1.git
+* At the command promt type git clone https://github.com/suping106/MS2-NorthShore-Reservations.git
 * Press enter
 * Local clone repository will be created
 
