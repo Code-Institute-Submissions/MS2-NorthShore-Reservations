@@ -79,8 +79,10 @@ Link to my original wireframes is [here](https://www.figma.com/file/YRGCBPXoM3Fq
 ### Code Validation
 HTML code for all pages and CSS stylesheet were validated on [W3C Validator](https://validator.w3.org/nu/#textarea). Errors were corrected.
 Errors of stray start tag were found. Errors were corrected by moving script links inside the body.
+<img src="./assets/images/NoErrorHtml.png" alt="Wireframe-MS2"/>
 
 CSS stylesheet were validated on [W3C Validator](https://validator.w3.org/nu/#textarea). No error found.
+<img src="./assets/images/NoErrorCSS.png" alt="Wireframe-MS2"/>
 
 ### Responsiveness
 Responsiveness of the site was tested using [Chrome devtools](https://developers.google.com/web/tools/chrome-devtools), [Responsive Design Checker](https://responsivedesignchecker.com/#home) and [Responsive design](http://ami.responsivedesign.is/#)
