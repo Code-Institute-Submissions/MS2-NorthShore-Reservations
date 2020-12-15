@@ -83,12 +83,10 @@ Errors of stray start tag were found. Errors were corrected by moving script lin
 Final-project code validation:
 Errors of the element of "Button" must not appear as descendent of the "a" element were found and corrected.
 Warnings were taking care of.
-<img src="./assets/images/htmlerrors.png" alt="htmlerrors"/>
 <img src="./assets/images/NoErrorHtml.png" alt="NoErrorHtml"/>
 
 CSS stylesheet were validated on [W3C Validator](https://validator.w3.org/nu/#textarea). 
-Error of mt-2 is not a margin value was found and corrected.
-<img src="./assets/images/CSSerror.png" alt="CSSerror"/>
+Error of mt-2 is not a margin value was found and corrected by replacing mt-2 with 2px.
 <img src="./assets/images/NoErrorCSS.png" alt="NoErrorCSS"/>
 
 ### Responsiveness
@@ -187,7 +185,7 @@ Clone the repository
 
 ### Media
 
-- Most of the photos are owned by me and few of them were downloaded from the Trustees and Greenbelt websites.
+- Most of the photos are owned by me and few of them were downloaded from the [The Trustees of Reservatios](https://thetrustees.org/) and [Greenbelt of Essex County's Land Trust](https://ecga.org/) websites.
 
 ### Acknowledgements
 
