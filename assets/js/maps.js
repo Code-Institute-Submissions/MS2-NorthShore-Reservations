@@ -1,4 +1,5 @@
 // Property array
+/*jshint esversion: 6 */
 const properties = [
     [
         "Appleton Farm",
@@ -48,7 +49,9 @@ const properties = [
         "halibut-point-reservation/",
         6,
     ],
-    ["Long Hill", 42.587141, -70.846344, "longhill-sm.jpg", "long-hill/", 7],
+    [
+        "Long Hill", 42.587141, -70.846344, "longhill-sm.jpg", "long-hill/", 7,
+    ],
     [
         "Old Town Hill",
         42.768704,
@@ -135,10 +138,10 @@ function initMap() {
         });
     } else {
         var map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 11,
-            center: centerLatLng,
-        });
-    }
+          zoom: 11,
+          center: centerLatLng,
+    });
+}
 
     var i = 0;
 

@@ -141,9 +141,9 @@ Compatibility of the site was tested on Google Chrome, Microsoft Edge and Firefo
     
 #### As a website owner
 - I want the users to come and enjoy these beautiful places.
- * by browsing through the website
+    * by browsing through the website
 - I want to introduce users to the great work that Trustees and Greenbelt have done in preserving local lands and histroy.
- * by visiting the websites of these two non-profit organizations.
+    * by visiting the websites of these two non-profit organizations.
 - I hope people would like to become a member and support the Trustees and Greenbelt.
     * by signing up on **Join Us" section
 

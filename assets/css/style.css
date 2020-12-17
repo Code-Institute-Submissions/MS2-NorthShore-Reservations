@@ -8,31 +8,31 @@
   }
 }
 
-/*------------ body padding --------------*/
+/*-------------------------- body padding --------------*/
 body {
-  padding-top: 55px;  
+   padding-top: 55px;  
 }
 
 .gap{
-    margin-top: 55px;
+   margin-top: 55px;
 }
 
 .row{
-    padding: 10px;
+   padding: 10px;
 }
 
 .col-md-3 .col-sm-6 {
-    margin: 2px;
+   margin: 2px;
 }
 
 /*----------------------------------------Text-------------*/
 .color-wht {
-    color: #fff;
+   color: #fff;
 }
 
 .center-text {
-    text-align: center;
-    color: brown;
+   text-align: center;
+   color: brown;
 }
 
 /* Always set the map height explicitly to define the size of the div
@@ -42,46 +42,46 @@ body {
 }
 
 html, body {
-    height: 100%;
-    margin: 0;
+   height: 100%;
+   margin: 0;
     
 }
 
 /*--------------------------content wrapper--------------------*/
 .text-wrapper {
-    padding: 10px 10px 10px 16px;
-    background: #fff;
-    border: 1px solid #d0d0ce;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    min-height: 230px;
-    width: 100%;
+   padding: 10px 10px 10px 16px;
+   background: #fff;
+   border: 1px solid #d0d0ce;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   min-height: 230px;
+   width: 100%;
 }
 
 .text-wrapper-join {
-    padding: 10px 10px 10px 16px;
-    background: #fff;
-    border: 1px solid #d0d0ce;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    min-height: 300px;
-    width: 100%;
+   padding: 10px 10px 10px 16px;
+   background: #fff;
+   border: 1px solid #d0d0ce;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   min-height: 300px;
+   width: 100%;
 }
 
-/*-------------------------------------------images----------*/
+/*-------------------------------------------images-------------*/
 .icon-img {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  padding-bottom: 15px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   padding-bottom: 15px;
 }
 
 .panel {
-  padding: 0 18px;
-  display: none;
-  background-color: white;
-  overflow: hidden;
+   padding: 0 18px;
+   display: none;
+   background-color: white;
+   overflow: hidden;
 }
 
 /*---------------------------------------Footer-------------------*/
@@ -96,10 +96,10 @@ html, body {
 }
 
 footer {
-  text-align: center;
-  padding: 3px;
-  background-color: DarkSalmon;
-  color: white;
+   text-align: center;
+   padding: 3px;
+   background-color: DarkSalmon;
+   color: white;
 }
 
 /*-------------------------------contact form--------------------*/
