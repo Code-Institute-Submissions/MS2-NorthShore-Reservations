@@ -77,17 +77,18 @@ Link to my original wireframes is [here](https://www.figma.com/file/YRGCBPXoM3Fq
 ## Testing
 
 ### Code Validation
-HTML code for all pages and CSS stylesheet were validated on [W3C Validator](https://validator.w3.org/nu/#textarea). Errors were corrected.
-Mid-project code validation:
-Errors of stray start tag were found. Errors were corrected by moving script links inside the body.
-Final-project code validation:
-Errors of the element of "Button" must not appear as descendent of the "a" element were found and corrected.
-Warnings were taking care of.
+- HTML code for all pages and CSS stylesheet were validated on [W3C Validator](https://validator.w3.org/nu/#textarea). Errors were corrected.
 <img src="./assets/images/NoErrorHtml.png" alt="NoErrorHtml"/>
 
-CSS stylesheet were validated on [W3C Validator](https://validator.w3.org/nu/#textarea). 
-Error of mt-2 is not a margin value was found and corrected by replacing mt-2 with 2px.
+- CSS stylesheet were validated on [W3C Validator](https://validator.w3.org/nu/#textarea). 
 <img src="./assets/images/NoErrorCSS.png" alt="NoErrorCSS"/>
+
+- Javascript files were validated on [JSHint](https://jshint.com/). No errors but few warnings.
+For maps.js file
+<img src="./assets/images/maps-jshint.png" alt="maps-jshint"/>
+
+For sendEmail.js file
+<img src="./assets/images/sentemail-jshint.png" alt="sentemail-jshint"/>
 
 ### Responsiveness
 Responsiveness of the site was tested using [Chrome devtools](https://developers.google.com/web/tools/chrome-devtools), [Responsive Design Checker](https://responsivedesignchecker.com/#home) and [Responsive design](http://ami.responsivedesign.is/#)
@@ -150,6 +151,9 @@ Compatibility of the site was tested on Google Chrome, Microsoft Edge and Firefo
 ### Bugs
 * Input patterns were not working. Bug fixed with added space.
 * Collage image was too small. On large devices it would leave some blank space on the right. Used online photo enlarger website to enlarger the photo. 
+* Mid-project code validation: Errors of stray start tag were found. Errors were corrected by moving script links inside the body.
+* Final-project code validation: Errors of the element of "Button" must not appear as descendent of the "a" element were found and corrected by rewrite the code.
+* Error of mt-2 is not a margin value was found and corrected by replacing mt-2 with 2px.
 
 ## Deployment
 The website was deployed to GitHub pages. Link to the site is [here](https://github.com/suping106/MS2-NorthShore-Reservations).
