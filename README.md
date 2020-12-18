@@ -154,7 +154,8 @@ Compatibility of the site was tested on Google Chrome, Microsoft Edge and Firefo
 * Mid-project code validation: Errors of stray start tag were found. Errors were corrected by moving script links inside the body.
 * Final-project code validation: Errors of the element of "Button" must not appear as descendent of the "a" element were found and corrected by rewrite the code.
 * Error of mt-2 is not a margin value was found and corrected by replacing mt-2 with 2px.
-
+* Fixed the warnings of "maps is already defined" and "map used out of scope" by moving map declaration outside of if statement.
+ 
 ## Deployment
 The website was deployed to GitHub pages. Link to the site is [here](https://github.com/suping106/MS2-NorthShore-Reservations).
 
