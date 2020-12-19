@@ -25,7 +25,7 @@ function sendMail(contactForm) {
             );
         return false;  // To block from loading a new page 
     } else {
-        alert("Message can't not be empty or white spaces only!");
+        alert("Message field can't not be empty or just white spaces!");
         return false;
     }            
 }

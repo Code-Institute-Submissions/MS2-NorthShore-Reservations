@@ -49,7 +49,7 @@ Link to my original wireframes is [here](https://www.figma.com/file/YRGCBPXoM3Fq
 - Map setion – shows a map with reservations in Northshore marked with markers. When the mouse moves over (on a desktop) or a finger taps a marker a info window pops up shown the picture and the name of that reservation.
 - Cards section – a collection of cards with photos and little intros of each reservation. Links under each card will bring user to the Trustees' or Greenbelt's website of that reservation.
 - Join us section – has two areas, one for The trustees of Reservations and the other for Greenbelt of Essex County's Land Trust. User can click either link that would bring up a signup website for membership or donations.
-- Contact me section - User can contact website owner through the contact form. Each field required to fill up before submission.
+- Contact me section - User can contact website owner through the contact form. Each field required to fill up before submission. Message field can't be empty or just white spaces.
 - Responsive design
 
 ### Future Features
