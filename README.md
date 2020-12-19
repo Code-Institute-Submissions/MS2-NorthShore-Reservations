@@ -83,7 +83,8 @@ Link to my original wireframes is [here](https://www.figma.com/file/YRGCBPXoM3Fq
 - CSS stylesheet were validated on [W3C Validator](https://validator.w3.org/nu/#textarea). 
 <img src="./assets/images/NoErrorCSS.png" alt="NoErrorCSS"/>
 
-- Javascript files were validated on [JSHint](https://jshint.com/). No errors but few warnings.
+- Javascript files were validated on [JSHint](https://jshint.com/). No errors.
+
 For maps.js file
 <img src="./assets/images/maps-jshint.png" alt="maps-jshint"/>
 
@@ -155,7 +156,7 @@ Compatibility of the site was tested on Google Chrome, Microsoft Edge and Firefo
 * Final-project code validation: Errors of the element of "Button" must not appear as descendent of the "a" element were found and corrected by rewrite the code.
 * Error of mt-2 is not a margin value was found and corrected by replacing mt-2 with 2px.
 * Fixed the warnings of "maps is already defined" and "map used out of scope" by moving map declaration outside of if statement.
- 
+
 ## Deployment
 The website was deployed to GitHub pages. Link to the site is [here](https://github.com/suping106/MS2-NorthShore-Reservations).
 
