@@ -20,12 +20,12 @@ function sendMail(contactForm) {
                     alert("Thank you! You email has been sent");
                 },
                 function (error) {
-                    alert("Sorry message can not be sent. Please check the format and try it later!");
+                    alert("Sorry message can not be sent. Please check the format and try it again!");
                 }
             );
         return false;  // To block from loading a new page 
     } else {
-        alert("Message field can't not be empty or just white spaces!");
+        alert("Message field can not be empty or just white spaces!");
         return false;
     }            
 }
