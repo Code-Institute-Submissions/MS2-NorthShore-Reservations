@@ -111,7 +111,7 @@ I don't understand what had caused the problem in Firefox since there is no issu
 
 <img src="./assets/images/email_sent_msg_chrome.png" alt="email_sent_msg_chrome"/>
 
-<img src="./assets/images/email_sent_msg_iphone.png" alt="email_sent_msg_iphone"/> 
+<img src="./assets/images/email_sent_msg_iphone.PNG" alt="email_sent_msg_iphone"/> 
 
 ### Testing User Stories
 #### As a user
