@@ -101,6 +101,18 @@ Compatibility of the site was tested on Google Chrome, Microsoft Edge and Firefo
 
 <img src="./assets/images/compatibility-test.png" alt="compatibility-test"/>
 
+Note: When use Firefox as browser the email sent message would not stay on the window (just flash and disappear) and the user contact form did not reset after email was sent.
+
+<img src="./assets/images/emai_sent_msg_firefox.png" alt="emai_sent_msg_firefox"/>
+
+I don't understand what had caused the problem in Firefox since there is no issue when using Edge or Chrome or iphone. 
+ 
+<img src="./assets/images/emai_sent_msg_edge.png" alt="emai_sent_msg_edge"/>
+
+<img src="./assets/images/emai_sent_msg_chrome.png" alt="emai_sent_msg_chrome"/>
+
+<img src="./assets/images/emai_sent_msg_iphon.png" alt="emai_sent_msg_iphone"/> 
+
 ### Testing User Stories
 #### As a user
 - I can have a brief glance of the reservations in Northshore when the website was opened.
@@ -150,12 +162,20 @@ Compatibility of the site was tested on Google Chrome, Microsoft Edge and Firefo
     * by signing up on **Join Us" section
 
 ### Bugs
+Solved Bugs
 * Input patterns were not working. Bug fixed with added space.
 * Collage image was too small. On large devices it would leave some blank space on the right. Used online photo enlarger website to enlarger the photo. 
 * Mid-project code validation: Errors of stray start tag were found. Errors were corrected by moving script links inside the body.
 * Final-project code validation: Errors of the element of "Button" must not appear as descendent of the "a" element were found and corrected by rewrite the code.
 * Error of mt-2 is not a margin value was found and corrected by replacing mt-2 with 2px.
 * Fixed the warnings of "maps is already defined" and "map used out of scope" by moving map declaration outside of if statement.
+
+Unsolved Bugs
+* Console error. I had searched online and asked help from tutor service but stile haven't find the solution to solve this error.
+
+<img src="./assets/images/console_error.png" alt="consoleError"/>
+
+* Contact Form won't reset and email sent message won't stay on the screen. See note and screenshots in Testing Browser Compatibility section.
 
 ## Deployment
 The website was deployed to GitHub pages. Link to the site is [here](https://github.com/suping106/MS2-NorthShore-Reservations).
