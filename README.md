@@ -77,13 +77,13 @@ Link to my original wireframes is [here](https://www.figma.com/file/YRGCBPXoM3Fq
 ## Testing
 
 ### Code Validation
-- HTML code for all pages and CSS stylesheet were validated on [W3C Validator](https://validator.w3.org/nu/#textarea). Errors were corrected.
+- HTML code was validated on [W3C Validator](https://validator.w3.org/nu/#textarea). Errors were corrected.
 <img src="./assets/images/NoErrorHtml.png" alt="NoErrorHtml"/>
 
-- CSS stylesheet were validated on [W3C Validator](https://validator.w3.org/nu/#textarea). 
+- CSS stylesheet was validated on [W3C Validator](https://validator.w3.org/nu/#textarea). No error found.
 <img src="./assets/images/NoErrorCSS.png" alt="NoErrorCSS"/>
 
-- Javascript files were validated on [JSHint](https://jshint.com/). No errors.
+- Javascript files were validated on [JSHint](https://jshint.com/). No error found.
 
 For maps.js file
 <img src="./assets/images/maps-jshint.png" alt="maps-jshint"/>
@@ -103,15 +103,15 @@ Compatibility of the site was tested on Google Chrome, Microsoft Edge and Firefo
 
 Note: When use Firefox as browser the email sent message would not stay on the window (just flash and disappear) and the user contact form did not reset after email was sent.
 
-<img src="./assets/images/emai_sent_msg_firefox.png" alt="emai_sent_msg_firefox"/>
+<img src="./assets/images/email_sent_msg_firefox.png" alt="email_sent_msg_firefox"/>
 
 I don't understand what had caused the problem in Firefox since there is no issue when using Edge or Chrome or iphone. 
  
-<img src="./assets/images/emai_sent_msg_edge.png" alt="emai_sent_msg_edge"/>
+<img src="./assets/images/email_sent_msg_edge.png" alt="email_sent_msg_edge"/>
 
-<img src="./assets/images/emai_sent_msg_chrome.png" alt="emai_sent_msg_chrome"/>
+<img src="./assets/images/email_sent_msg_chrome.png" alt="email_sent_msg_chrome"/>
 
-<img src="./assets/images/emai_sent_msg_iphon.png" alt="emai_sent_msg_iphone"/> 
+<img src="./assets/images/email_sent_msg_iphone.png" alt="email_sent_msg_iphone"/> 
 
 ### Testing User Stories
 #### As a user
